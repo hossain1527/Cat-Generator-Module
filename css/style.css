@@ -43,3 +43,14 @@ button {
   font-family: "Kurale", serif;
   font-size: 1.5rem;
 }
+
+@media (min-width:1200px) {
+  .flexbox-container {
+      width: 100%;
+  }
+
+  @media (min-width:650px) && (max-width:1199) {
+    .flexbox-container {
+        float:left;
+        width: 33%;
+    }
